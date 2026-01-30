@@ -5,3 +5,5 @@ Finite Element Method modelling of a smaller vehicle that (front) impacts a heav
 The object was modelled as an movable object and not a fixed barrier. As a result of the object's lack of constraining to the ground it was accelerated during the collision, as such the acceleration components were monitored in orthogonal directions. Below are these accelerations, where the mass of the object was varied (essentially changing it's density) between 100 to 500 [kg]. 
 
 <img src="https://github.com/TessellateDataScience/CarCrashIntoMovableObject/blob/main/plot_mX_accNorm_pBack.png" alt="acceleration versus object's mass">
+
+Generally the acceleration in the forward direction is most significant. For this direction, increasing the object's mass generally decreases the acceleration magnitudes (at a particular instant of time). However an increase of a high-frequency peak's magnitude are also apparent (at T ~ 0.02).
