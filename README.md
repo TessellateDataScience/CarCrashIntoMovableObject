@@ -1,2 +1,2 @@
-# CarCrashIntoMovableObject
-Finite Element Method modelling of a smaller vehicle that (front) impacts a heavy object.
+# Car impacting an unconstrained object
+Finite Element Method modelling of a smaller vehicle that (front) impacts a heavy object. Modelling was partially developed by Tessellate Data Science using [OpenRadioss](https://github.com/OpenRadioss/OpenRadioss). The car sub-model was developed by Center for Collision Safety and Analysis (CCSA) researchers at George Mason University (more information can be found on [CCSA's website](https://www.ccsa.gmu.edu/models/2010-toyota-yaris/)).
