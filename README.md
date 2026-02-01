@@ -7,3 +7,5 @@ The object was modelled as an movable object and not a fixed barrier. As a resul
 <p align="center">
 <img src="https://github.com/TessellateDataScience/CarCrashIntoMovableObject/blob/main/plot_m500_accNorm_XYZ.jpg" alt="acceleration over time">
 </p>
+
+Overall, the car's forward-facing direction acceleration is significantly higher. In this direction, the acceleration initially increases, followed by a highly-transient peak, and then decreases more gradually than the initial rise. A secondary peak also appears at the onset of acceleration.
