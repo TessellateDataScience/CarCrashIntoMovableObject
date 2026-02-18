@@ -1,10 +1,10 @@
 # Car impacting an unconstrained object
-Finite Element Method modelling of a smaller vehicle that (front) impacts a heavy object. 
+_Finite Element Method modelling of a smaller vehicle that (front) impacts a heavy object._ Acceleration (change of velocity) is of interest as a proxy for potential head trauma during a car crash, with linear rates of ~ 100 times that of gravity implicated as causing concussion of helment-wearing folks in traditional sports. Here we are interested in potential head trauma to car passengers during an accident where a car collides with a heavy object (that could represent a bolder) on the shoulder of the road. 
 
-Acceleration (physical) is of interest as a proxy for potential head trauma, with linear rates of ~ 100 times that of gravity implicated as causing concussion of helment-wearing folks in traditional sports. Here we are interested in potential head trauma to car passengers during an accident were the car collides with a heavy object (that could represent a bolder) on the shoulder of the road. Modelling was partially developed by Tessellate Data Science using [OpenRadioss](https://github.com/OpenRadioss/OpenRadioss). The car sub-model was developed by Center for Collision Safety and Analysis (CCSA) researchers at George Mason University (more information can be found on [CCSA's website](https://www.ccsa.gmu.edu/models/2010-toyota-yaris/)).
+Research is led by Tessellate Data Science with modelling using [OpenRadioss](https://github.com/OpenRadioss/OpenRadioss). The car sub-model was developed by Center for Collision Safety and Analysis (CCSA) researchers at George Mason University (more information can be found on [CCSA's website](https://www.ccsa.gmu.edu/models/2010-toyota-yaris/)). Numerous sensitivity investigations were run within OpenRadioss, instilling confidence that the modelling approach that our results are derived from is reliable. Currently no validation against real-world (non-computational) investigation's results has been done.  
 
 ## Acceleration
-Acceleration in Cartesian components, in orthogonal directions, were monitored (visualised directly below). 
+Acceleration components in in orthogonal directions were monitored and are visualised directly below. 
 
 <p align="center">
 <img src="https://github.com/TessellateDataScience/CarCrashIntoMovableObject/blob/main/plot_m500_accNorm_XYZ.jpg" alt="acceleration over time">
